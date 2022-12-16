@@ -1,0 +1,35 @@
+Introduction to Pandas
+Pandas is a widely-used Python library built on top of NumPy. Much of the rest of this course will be dedicated to learning about pandas and how it is used in the 
+world of finance.
+
+What is Pandas?
+Pandas is a Python library created by Wes McKinney, who built pandas to help work with datasets in Python for his work in finance at his place of employment.
+According to the library’s website, pandas is “a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the 
+Python programming language.”
+Pandas stands for ‘panel data’. Note that pandas is typically stylized as an all-lowercase word, although it is considered a best practice to capitalize its first 
+letter at the beginning of sentences.
+Pandas is an open source library, which means that anyone can view its source code and make suggestions using pull requests. If you are curious about this, visit 
+the pandas source code repository on GitHub
+
+The Main Benefit of Pandas
+Pandas was designed to work with two-dimensional data (similar to Excel spreadsheets). Just as the NumPy library had a built-in data structure called an array 
+with special attributes and methods, the pandas library has a built-in two-dimensional data structure called a DataFrame.
+
+What Are Pandas Series?
+Series are a special type of data structure available in the pandas Python library. Pandas Series are similar to NumPy arrays, except that we can give them a named 
+or datetime index instead of just a numerical index.
+
+The Main Advantage of Pandas Series Over NumPy Arrays
+While we didn’t encounter it at the time, NumPy arrays are highly limited by one characteristic: every element of a NumPy array must be the same type of data structure. 
+Said differently, NumPy array elements must be all string, or all integers, or all booleans - you get the point.
+Pandas Series do not suffer from this limitation. In fact, pandas Series are highly flexible.
+
+Pandas DataFrames
+NumPy allows developers to work with both one-dimensional NumPy arrays (sometimes called vectors) and two-dimensional NumPy arrays (sometimes called matrices). 
+We explored pandas Series in the last section, which are similar to one-dimensional NumPy arrays.
+In this section, we will dive into pandas DataFrames, which are similar to two-dimensional NumPy arrays - but with much more functionality. DataFrames are the most 
+important data structure in the pandas library, so pay close attention throughout this section.
+
+What Is A Pandas DataFrame?
+A pandas DataFrame is a two-dimensional data structure that has labels for both its rows and columns. For those familiar with Microsoft Excel, Google Sheets, or 
+other spreadsheet software, DataFrames are very similar.
